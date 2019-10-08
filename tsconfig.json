@@ -1,0 +1,31 @@
+{
+
+  "compilerOptions": {
+    "module": "ES6",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports":true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "jsx":"react",
+    "typeRoots": [
+      "node_modules/@types",
+      "typings"
+    ],
+    "baseUrl":".",
+    "paths":{
+      "@store": ["./src/store"],
+      "components": ["./src/components"],
+      "containers": ["./src/containers"]
+    },
+    "lib": [
+      "es7",
+      "es6",
+      "dom"
+    ]
+  },
+  "exclude": ["node_modules", "dist"]
+}
