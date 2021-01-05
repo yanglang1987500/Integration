@@ -63,7 +63,7 @@
     "product": "npm run build && firebase deploy"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "immutable": "^4.0.0-rc.12",
     "immutable-undo": "^2.0.0",
